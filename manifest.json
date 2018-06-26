@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "twitter-timer",
+  "version": "0.4",
+  "description": "A tiny timer for twitter",
+  "homepage_url": "https://github.com/siddharthkp/twitter-timer",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["styles.css"],
+      "js": ["main.js"]
+    }
+  ]
+}

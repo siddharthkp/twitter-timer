@@ -1,0 +1,18 @@
+#timer:before {
+  content: none;
+}
+#timer svg {
+  transform: scale(2);
+  position: relative;
+  fill: #1da1f2;
+  vertical-align: middle;
+}
+
+#timer .time {
+  fill: none;
+  stroke: white;
+  stroke-width: 4;
+  stroke-dasharray: 13;
+  stroke-dashoffset: 12;
+  transition: all 0.5s ease;
+}
