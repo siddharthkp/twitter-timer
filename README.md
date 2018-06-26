@@ -10,7 +10,7 @@
 &nbsp;
 
 
-[Download the .crx from chrome](https://github.com/siddharthkp/twitter-timer/releases/download/untagged-0138a3e3ed60490f59cc/twitter-timer.crx)
+[Install it from the chrome webstore](https://chrome.google.com/webstore/detail/twitter-timer/gcbkjfaggekcnfmlbnkcdpfphcfgdceg)
 
 &nbsp;
 
