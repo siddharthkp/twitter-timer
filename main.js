@@ -1,6 +1,9 @@
 const body = document.querySelector('body')
 const nav = document.querySelector('.global-nav-inner')
 
+const prevBody = body.style.backgroundColor
+const prevNav = nav.style.backgroundColor
+
 const birdie = document.querySelector('.Icon--bird')
 birdie.id = 'timer'
 
@@ -48,7 +51,7 @@ window.setInterval(_ => update(), interval * 1000)
 birdie.addEventListener('click', () => {
   current = start + 1
   time.style.stroke = '#fff'
-  nav.style.backgroundColor = '#fff'
-  body.style.backgroundColor = '#e6ecf0'
+  nav.style.backgroundColor = prevNav
+  body.style.backgroundColor = prevBody
   update()
 })
